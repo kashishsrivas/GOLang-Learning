@@ -16,4 +16,19 @@ func main() {
 	}
 
 	fmt.Println(rev)
+
+	// str := "racecar"
+	// rev := ""
+
+	// for i := len(str) - 1; i >= 0; i-- {
+	// 	rev += string(str[i])
+	// }
+
+	// if rev == str {
+	// 	fmt.Println("palindrome")
+	// 	fmt.Println(rev)
+	// } else {
+	// 	fmt.Println("not a palindrome")
+	// 	fmt.Println(rev)
+	// }
 }
