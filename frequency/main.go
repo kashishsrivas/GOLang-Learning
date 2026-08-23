@@ -1,0 +1,17 @@
+package main
+
+import "fmt"
+
+//Find the frequency of every character in a string.
+
+func main() {
+	str := "hello"
+	frequency := make(map[byte]int)
+
+	for i := 0; i < len(str); i++ {
+		frequency[str[i]]++
+	}
+	for ch, count := range frequency {
+		fmt.Printf("%c: %d\n", ch, count)
+	}
+}
