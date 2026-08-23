@@ -11,6 +11,8 @@ func main() {
 	for i := 0; i < len(str); i++ {
 		frequency[str[i]]++
 	}
+
+	//ch = key, count=value -> h= key, 1=count
 	for ch, count := range frequency {
 		fmt.Printf("%c: %d\n", ch, count)
 	}
