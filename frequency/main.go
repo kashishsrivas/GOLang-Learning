@@ -6,7 +6,7 @@ import "fmt"
 
 func main() {
 	str := "hello"
-	frequency := make(map[byte]int)
+	frequency := make(map[byte]int) // map: "h" : 1 (key value pair)
 
 	for i := 0; i < len(str); i++ {
 		frequency[str[i]]++
